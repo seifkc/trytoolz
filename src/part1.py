@@ -12,7 +12,7 @@ def data_type(value):
     Returns:
         str: The data type of the value as a string
     """
-    pass
+    return type(value).__name__
 
 def add(a, b):
     """
@@ -25,7 +25,7 @@ def add(a, b):
     Returns:
         int: The sum of a and b
     """
-    pass
+    return a + b
 
 def subtract(a, b):
     """
@@ -38,7 +38,7 @@ def subtract(a, b):
     Returns:
         int: The difference of a and b
     """
-    pass
+    return a - b
 
 def multiply(a, b):
     """
@@ -51,7 +51,7 @@ def multiply(a, b):
     Returns:
         int: The product of a and b
     """
-    pass
+    return a * b
 
 def divide(a, b):
     """
@@ -64,7 +64,7 @@ def divide(a, b):
     Returns:
         float: The division of a and b
     """
-    pass
+    return a / b
 
 def floor_divide(a, b):
     """
