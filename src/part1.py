@@ -91,7 +91,7 @@ def get_remainder(a, b):
     Returns:
         int: The remainder of a and b
     """
-    pass
+    return a % b
 
 def increment(a):
     """
