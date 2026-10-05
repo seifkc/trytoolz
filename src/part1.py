@@ -77,7 +77,7 @@ def floor_divide(a, b):
     Returns:
         int: The result of floor division of a and b
     """
-    pass
+    return a //b
 
 
 def get_remainder(a, b):
@@ -103,7 +103,7 @@ def increment(a):
     Returns:
         int: The incremented value of a
     """
-    pass
+    return a + 1
 
 def decrement(a):
     """
@@ -115,7 +115,7 @@ def decrement(a):
     Returns:
         int: The decremented value of a
     """
-    pass
+    return a - 1
 
 def exponent(a, b):
     """
@@ -128,4 +128,4 @@ def exponent(a, b):
     Returns:
         int: The result of raising a to the power of b
     """
-    pass
+    return a ** b
